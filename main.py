@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    my_set = {"Hello World my name is: Diego Saavedra"}
+    my_set = {"Hello World my name is: Alex Bedón"}
     return jsonify(list(my_set))
 
 if __name__ == '__main__':
